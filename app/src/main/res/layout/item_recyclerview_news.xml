@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/recyclerview_touch_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:paddingTop="6dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/iv_news_image"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="货车迎面亲吻S6，司机下车后却一脸平静"/>
+
+    <TextView
+        android:id="@+id/tv_news_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:text="明日新闻"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_news_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@+id/tv_news_author"
+        android:text="2016-12-13 11:33"
+        android:textSize="12sp"/>
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_news_image"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        android:padding="4dp"
+        android:layout_alignParentRight="true"
+        fresco:placeholderImage="@drawable/aaa"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line"/>
+
+</RelativeLayout>

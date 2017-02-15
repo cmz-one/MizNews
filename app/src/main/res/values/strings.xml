@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MizNews</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+
+    <string-array name="tab">
+        <item>推荐</item>
+        <item>社会</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+    </string-array>
+
+    <string-array name="tabType">
+        <item>top</item>
+        <item>shehui</item>
+        <item>guonei</item>
+        <item>guoji</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>junshi</item>
+        <item>keji</item>
+        <item>caijing</item>
+        <item>shishang</item>
+    </string-array>
+</resources>
