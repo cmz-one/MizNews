@@ -7,7 +7,14 @@
 
 3.	模仿了今日头条频道选择效果
 
-4.	使用了：RecyclerView、GreenDao、Retrofit2、Fresco、下拉刷新SwipeRefreshLayout、上拉加载、侧拉NavigationView、TabLayout导航栏、
-Gson、本地储存SharedPreferences等
+4.	使用了：RecyclerView、GreenDao、Retrofit2、Fresco、下拉刷新SwipeRefreshLayout、上拉加载、侧拉NavigationView、TabLayout导航栏、Gson、本地储存SharedPreferences等
 
-![01](/path/to/img.jpg)
+![01](https://github.com/cmz-one/MizNews/blob/master/01.png)
+
+![02](https://github.com/cmz-one/MizNews/blob/master/02.png)
+
+![03](https://github.com/cmz-one/MizNews/blob/master/03.png)
+
+![04](https://github.com/cmz-one/MizNews/blob/master/04.png)
+
+![05](https://github.com/cmz-one/MizNews/blob/master/05.png)
