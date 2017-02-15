@@ -1,5 +1,5 @@
-# MizNews
-一款基于android手机的新闻阅读应用软件（在此跪求一份足够温饱就好的实习工作 e-mail：cmz_one@foxmail.com）
+## MizNews
+#一款基于android手机的新闻阅读应用软件（在此跪求一份足够温饱就好的实习工作 e-mail：cmz_one@foxmail.com）
 
 1.	使用了遵循material design设计风格的UI控件，如CoordinatorLayout、DrawerLayout、SwipeRefreshLayout等，实现了新闻阅读及分享的功能
 
